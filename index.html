@@ -1,55 +1,63 @@
-<!-- index.html -->
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keyboard Shortcuts</title>
 
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-<header class="main-header">
-  <div class="title-container">
-    <h1>Keyboard Shortcuts</h1>
-    <p class="subtitle">Quickly find and copy shortcuts across OSes and apps</p>
-  </div>
+  <header class="main-header">
+    <div class="title-container">
+      <h1>Keyboard Shortcuts</h1>
+      <p class="subtitle">Quickly find and copy shortcuts across OSes and apps</p>
+    </div>
 
-  <div class="controls">
-    <select id="osSelect" aria-label="Select OS">
-      <option value="all">All</option>
-      <option value="windows">Windows</option>
-      <option value="linux">Linux</option>
-      <option value="macos">macOS</option>
-    </select>
+    <div class="controls">
+      <select id="osSelect" aria-label="Select OS">
+        <option value="all">All</option>
+        <option value="windows">Windows</option>
+        <option value="linux">Linux</option>
+        <option value="macos">macOS</option>
+      </select>
 
-    <input 
-      id="search" 
-      type="text" 
-      placeholder="Search shortcuts, e.g. copy, paste, window" 
-      aria-label="Search shortcuts"
-    >
-  </div>
-</header>
+      <input 
+        id="search" 
+        type="text" 
+        placeholder="Search shortcuts, e.g. copy, paste, window" 
+        aria-label="Search shortcuts"
+      >
+    </div>
+  </header>
 
+  <section class="summary">
+    <div class="stats">
+      <div class="stat"><span id="count">0</span><small>shortcuts</small></div>
+      <div class="stat"><span id="osIndicator">All</span><small>OS</small></div>
+    </div>
+    <p class="hint">
+      Click a shortcut to copy it. Use the category chips to filter. 
+      Smooth animations, minimal black & white aesthetic.
+    </p>
+  </section>
 
+  <nav class="filters" id="categoryChips" aria-label="Categories">
+    <!-- generated chips -->
+  </nav>
 
-<section class="summary">
-<div class="stats">
-<div class="stat"><span id="count">0</span><small>shortcuts</small></div>
-<div class="stat"><span id="osIndicator">All</span><small>OS</small></div>
-</div>
-<p class="hint">Click a shortcut to copy it. Use the category chips to filter. Smooth animations, minimal black & white aesthetic.</p>
-</section>
+  <section class="grid" id="cards" aria-live="polite">
+    <!-- generated cards -->
+  </section>
 
+  <footer class="foot">
+    Made with ♡ — Press any card to copy. 
+    Dark/Light is intentionally high-contrast monochrome.
+  </footer>
 
-<nav class="filters" id="categoryChips" aria-label="Categories">
-<!-- generated chips -->
-</nav>
-
-
-<section class="grid" id="cards" aria-live="polite">
-<!-- generated cards -->
-</section>
-
-
-<footer class="foot">Made with ♡ — Press any card to copy. Dark/Light is intentionally high-contrast monochrome.</footer>
-</main>
-
-
-<script src="script.js"></script>
+  <!-- Link JS -->
+  <script src="script.js"></script>
 </body>
 </html>
