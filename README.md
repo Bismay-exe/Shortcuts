@@ -80,14 +80,14 @@ Subtle animations & bounce effect
 ## ⚙️ About Keyboard Shortcuts Explorer
 
 <p align="center">
-  <a href="https://bismay-exe.github.io/Keyboard-Shortcuts/">
-    <img src="assets/screenshots/keyboard-shortcuts.png" width="700px" alt="Keyboard Shortcuts" />
-    <b>Keyboard Shortcuts</b>
-  </a>
-</p>
-
-<p align="center">
-  <b>⚡ Keyboard Shortcuts Explorer</b><br>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/screenshots/keyboard-shortcuts.png" width="700px" alt="Keyboard Shortcuts" /><br>
+        <b>⌨️ Keyboard Shortcuts ⌨️</b>
+      </td>
+    </tr>
+  </table>
   A fast and elegant way to **learn, search, and copy** productivity shortcuts across OSes.
 </p>
 
