@@ -58,6 +58,7 @@ Dark glassmorphism theme
 Responsive grid layout  
 Subtle animations & bounce effect
 
+</div>
 
 ---
 
