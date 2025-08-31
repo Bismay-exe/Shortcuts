@@ -21,7 +21,28 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="assets/preview.png" alt="Keyboard Shortcuts" width="700px" style="border-radius:15px;box-shadow:0 4px 12px rgba(0,0,0,0.25);" />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/screenshots/keyboard-shortcuts.png" alt="Keyboard Shortcuts" width="400px" /><br>
+        <b>Keyboard Shortcuts</b>
+      </td>
+      <td align="center">
+        <img src="assets/screenshots/windows.png" alt="Windows Shortcuts" width="400px" /><br>
+        <b>Windows Shortcuts</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="assets/screenshots/linux.png" alt="Linux Shortcuts" width="400px" /><br>
+        <b>Linux Shortcuts</b>
+      </td>
+      <td align="center">
+        <img src="assets/screenshots/macos.png" alt="MacOS Shortcuts" width="400px" /><br>
+        <b>MacOS Shortcuts</b>
+      </td>
+    </tr>
+  </table>
 </p>
 
 A **minimal, glassy UI web app** that lets you explore **500+ keyboard shortcuts** for  
@@ -66,7 +87,7 @@ Subtle animations & bounce effect
 
 <p align="center">
   <a href="https://bismay-exe.github.io/Keyboard-Shortcuts/">
-    <img src="assets/preview_banner.png" width="700px" alt="Keyboard Shortcuts" />
+    <img src="assets/screenshots/keyboard-shortcuts.png" width="700px" alt="Keyboard Shortcuts" />
   </a>
 </p>
 
