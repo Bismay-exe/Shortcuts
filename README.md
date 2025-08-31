@@ -24,10 +24,6 @@
   <table>
     <tr>
       <td align="center">
-        <img src="assets/screenshots/keyboard-shortcuts.png" alt="Keyboard Shortcuts" width="400px" /><br>
-        <b>Keyboard Shortcuts</b>
-      </td>
-      <td align="center">
         <img src="assets/screenshots/windows.png" alt="Windows Shortcuts" width="400px" /><br>
         <b>Windows Shortcuts</b>
       </td>
@@ -88,6 +84,7 @@ Subtle animations & bounce effect
 <p align="center">
   <a href="https://bismay-exe.github.io/Keyboard-Shortcuts/">
     <img src="assets/screenshots/keyboard-shortcuts.png" width="700px" alt="Keyboard Shortcuts" />
+    <b>Keyboard Shortcuts</b>
   </a>
 </p>
 
