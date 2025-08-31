@@ -27,8 +27,6 @@
         <img src="assets/screenshots/windows.png" alt="Windows Shortcuts" width="400px" /><br>
         <b>Windows Shortcuts</b>
       </td>
-    </tr>
-    <tr>
       <td align="center">
         <img src="assets/screenshots/linux.png" alt="Linux Shortcuts" width="400px" /><br>
         <b>Linux Shortcuts</b>
